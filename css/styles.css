@@ -1,0 +1,79 @@
+#head{
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    
+}
+
+body{
+    height: 100vh;
+    color: #fff;
+}
+
+h3{
+    text-align: center;
+    text-transform: uppercase;
+    
+    text-shadow: 2px -1px orange;
+    color: black;
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+main{
+    padding-top: 120px;
+    width: 90%;
+    margin: auto;
+
+}
+
+.cards{
+    display: grid;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.checked {
+  color: orange;
+}
+
+.float-right{
+    float: right;
+}
+.fa-turn-up{
+  font-size: 25px;
+  color: #6e6a6a;
+}
+
+.subscribe{
+    width: 85%;
+    margin: auto;
+    background: #212529;
+    border-radius: 12px;
+}
+.subscribe p{
+    text-align: center;
+    padding-top: 12px;
+    font-size: 1.5rem;
+}
+
+#sub-form{
+    padding: 44px;
+}
+
+
+.footer-section {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: #5a5a5a;
+}
+
+/* =========================Media query ================*/
+
+@media only screen and (min-width: 768px) {
+  .cards {
+/*    display: flex;*/
+      width: 65%;
+      margin: auto;
+  }
+}
